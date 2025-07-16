@@ -1,0 +1,5 @@
+1. go.mod is a file that defines and manages all of the modules necessary for running the program.
+2. go.sum is a file that contains all of the hashes necessary for the authenticity of the modules and the program
+3. GOPATH is a variable that defines the root of your Go workspace, traditionally containing src, pkg, and bin folders 
+for source code, compiled packages, and executables. With the introduction of Go modules, the development model shifted, 
+allowing modules to exist outside the $GOPATH/src directory.
