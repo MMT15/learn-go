@@ -1,0 +1,8 @@
+mode: set
+gomod/stringutils/stringutils.go:3.34,5.27 2 1
+gomod/stringutils/stringutils.go:5.27,6.23 1 1
+gomod/stringutils/stringutils.go:6.23,8.4 1 1
+gomod/stringutils/stringutils.go:10.2,10.13 1 1
+gomod/stringutils/stringutils.go:13.31,16.27 3 1
+gomod/stringutils/stringutils.go:16.27,18.3 1 1
+gomod/stringutils/stringutils.go:19.2,19.22 1 1
