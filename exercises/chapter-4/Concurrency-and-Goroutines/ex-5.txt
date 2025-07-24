@@ -1,0 +1,11 @@
+Okay, so with multiple goroutines calling your increment function concurrently, 
+you're looking at a classic data race issue, which is a specific kind of race condition.
+What happens is that the steps inside increment aren't a single, indivisible operation. 
+Because goroutines execute asynchronously, they can step on each other's toes: one might
+read the counter, then another reads the same old value before the first one writes its 
+update back. This means some increments get lost, and your counter won't reach the 
+expected sum.
+
+This scenario perfectly illustrates why Go has that really important proverb: 
+"Don't communicate by sharing memory, share memory by communicating.". Your current 
+increment shares the counter directly in memory, which needs careful synchronization. 

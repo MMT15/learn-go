@@ -1,0 +1,11 @@
+Exercise 1
+
+    The difference between Concurrency and Parallelism is like a train, 
+    you can deal with all the wagons at once with just one locomotive and 
+    one trail or you can have a lot of locomotives for each wagon that are 
+    going on different trails in parallel.
+
+Exercice 2
+
+    The CSP model, which Go relies on for its concurrency, is working through 
+    channels of communication that are bidirectional and they are synchronized.
